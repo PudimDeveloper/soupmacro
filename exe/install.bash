@@ -4,19 +4,23 @@
 #####################################
 
 #Update libs Bash
-pkg upgrade
-pkg update
+pkg upgrade -y
+pkg update -y
 
 #Install libs bash
-pkg install python #Execute code
-pkg install yt-dlp #Sound to bash
-pip install yt-dlp #Sound to pip
-pkg install figlet #Big letters
+pkg install python -y #Execute code
+pkg install yt-dlp -y #Sound to bash
+pip install yt-dlp -y #Sound to pip
+pkg install figlet -y #Big letters
 
 #Locals
-mkdir /storage/emulated/0/soupmacro #Sounds
+mkdir /storage/emulated/0/soupmacro #Musics and phones
 mkdir /storage/emulated/0/soupmacro/documents #Documents post intents by .txt
 echo "..." > /storage/emulated/0/soupmacro/documents/name.txt
+
+mv ../main.py ~/.termux/tasker/
+chmod +x ~/.termux/tasker/main.py #good permission, else... permission denied
+
 
 clear #clear terminal
 
