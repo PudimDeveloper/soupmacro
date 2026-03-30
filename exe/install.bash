@@ -4,14 +4,21 @@
 #####################################
 
 #Update libs Bash
-pkg upgrade -y
-pkg update -y
+pkg -y upgrade
+pkg -y update
 
 #Install libs bash
-pkg install python -y #Execute code
-pkg install yt-dlp -y #Sound to bash
-pip install yt-dlp -y #Sound to pip
-pkg install figlet -y #Big letters
+pkg install -y python #Execute code
+pkg install -y yt-dlp #Sound to bash
+pip install -y yt-dlp #Sound to pip
+pkg install -y figlet #Big letters
+pkg install -y android-tools #adb tools (Hack adb)
+
+ip="192.168.1.33"
+port="5555"
+
+adb connect $ip:$port
+adb shell sh /sdcard/Android/data/moe.shizuku.privileged.api/start.sh
 
 #Locals
 mkdir /storage/emulated/0/soupmacro #Musics and phones
