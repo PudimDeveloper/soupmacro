@@ -23,7 +23,12 @@ clear #clear terminal
 echo "Finnaly" | figlet
 echo "2026 © PudimDev | DevWAve | ligHTDev"
 echo "We don't work!"
-echo "\n"
-echo "Where is automation:\nhttps://download2296.mediafire.com/8quapu4j4elgrsjJWnW2ryU7BPrGshQtdpFqWJ2D3RDK6XsM-Yaiw6VNJTqbhQgetwQ9fFySD1VGszepr9nD4qcnv0w0oZAoRXm5zBqSVIBu170d1rHOKnOVqDTP1zIw2SRJ1dyyCrWda_KyWzlM5NIl3397PooPI963S5vybkZUyg/feznz26glil3tot/MacroDroid_Pro+-+v5.62.10%5B64Bits%5D_Tekmods.com.apk\n"
-echo "Alert: This apk is \e[1;31mPirate\e[0m\nAnd for phones 64 Bits"
+echo "\nTasker:"
+echo "\e[36mhttps://download2270.mediafire.com/2k5epdizy1ig1bX2ZpatD2OVDV1dqzgPrwZ9hWGDPQWcmTgLFxanU2_DHOfScjfNlaQjeEBIANR5PoutcoCcmkruRyEblXbDgiwHD21_n13VOb1ef4PisYQV_g4IJ8f7LrJvPsMs5Q3N97fA4BwISIu_b2TF9RGqi-9ZfBPUp6Hilw/vbgt3to8d1rllmx/Tasker+-+v6.6.20_Tekmods.com.apk\n\e[0m\n"
 
+echo "Hotword Plugin: "
+echo "\e[36mhttps://play.google.com/store/apps/details?id=nl.jolanrensen.hotwordPluginFree\e[0m"
+
+
+#Alert
+echo "\e[35mAlert: This apk is \e[1;31mPirate\e[0m\nAnd for phones 64 Bits\e[0m"
