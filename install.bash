@@ -14,7 +14,8 @@ pkg install figlet #Big letters
 
 #Locals
 mkdir /storage/emulated/0/soupmacro #Sounds
-mkdir /storage/emulated/0/documents #Documents post intents by .txt
+mkdir /storage/emulated/0/soupmacro/documents #Documents post intents by .txt
+echo "..." > /storage/emulated/0/soupmacro/documents/name.txt
 
 clear #clear terminal
 
