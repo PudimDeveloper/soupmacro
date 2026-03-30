@@ -18,7 +18,7 @@ mkdir /storage/emulated/0/soupmacro #Musics and phones
 mkdir /storage/emulated/0/soupmacro/documents #Documents post intents by .txt
 echo "..." > /storage/emulated/0/soupmacro/documents/name.txt
 
-mv ../main.py ~/.termux/tasker/
+mv main.py ~/.termux/tasker/
 chmod +x ~/.termux/tasker/main.py #good permission, else... permission denied
 
 
