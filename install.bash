@@ -1,10 +1,10 @@
 pkg upgrade
 pkg update
 
-pkg install python -y
-pkg install yt-dlp -y
-pip install yt-dlp -y
-pkg install figlet -y
+pkg install python
+pkg install yt-dlp
+pip install yt-dlp
+pkg install figlet
 
 echo "Finnaly" | figlet
 echo "2026 © PudimDev | DevWAve | ligHTDev"
