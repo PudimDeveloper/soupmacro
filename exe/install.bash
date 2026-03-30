@@ -10,7 +10,7 @@ pkg -y update
 #Install libs bash
 pkg install -y python #Execute code
 pkg install -y yt-dlp #Sound to bash
-pip install -y yt-dlp #Sound to pip
+pip install yt-dlp #Sound to pip
 pkg install -y figlet #Big letters
 pkg install -y android-tools #adb tools (Hack adb)
 
