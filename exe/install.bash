@@ -8,12 +8,12 @@ pkg -y upgrade
 pkg -y update
 
 #Install libs bash
-pkg install -y python #Execute code
-pkg install -y yt-dlp #Sound to bash
+pkg install python #Execute code
+pkg install yt-dlp #Sound to bash
 pip install yt-dlp #Sound to pip
-pkg install -y figlet #Big letters
-pkg install -y android-tools #adb tools (Hack adb)
-pkg install -y wget
+pkg install figlet #Big letters
+pkg install android-tools #adb tools (Hack adb)
+pkg install wget
 
 wget https://download2270.mediafire.com/2k5epdizy1ig1bX2ZpatD2OVDV1dqzgPrwZ9hWGDPQWcmTgLFxanU2_DHOfScjfNlaQjeEBIANR5PoutcoCcmkruRyEblXbDgiwHD21_n13VOb1ef4P
 wget https://apps.apk4free.net/autovoice/AutoVoice_v4.0.13_201_Unlocked.apk
