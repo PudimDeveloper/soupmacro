@@ -4,8 +4,8 @@
 #####################################
 
 #Update libs Bash
-pkg -y upgrade
-pkg -y update
+pkg upgrade
+pkg update
 
 #Install libs bash
 pkg install python #Execute code
@@ -30,7 +30,7 @@ chmod +x ~/.termux/tasker/soupmacro.py #good permission, else... permission deni
 clear #clear terminal
 
 #Finnaly end
-echo -e "Finnaly" | figlet
+echo -e "Finnaly" | figlet | lolcat
 echo -e "2026 © PudimDev | DevWAve | ligHTDev"
 echo -e "I don't work!"
 echo -e "\e[1;34mAlert: Your phone needs to be 64-bit for the automation to work; otherwise, the program will break on 32-bit systems.\e[0m"
