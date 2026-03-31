@@ -41,3 +41,10 @@ echo -e "Finnaly" | figlet | lolcat
 echo -e "2026 © PudimDev | DevWAve | ligHTDev"
 echo -e "I don't work!"
 echo -e "\e[1;34mAlert: Your phone needs to be 64-bit for the automation to work; otherwise, the program will break on 32-bit systems.\e[0m"
+echo "Run: "
+echo "echo 'pkill mpv' > ~/.termux/tasker/killmusic"
+echo "chmod +x ~/.termux/tasker/killmusic"
+
+
+
+#ENDDING
