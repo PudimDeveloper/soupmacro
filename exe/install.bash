@@ -45,6 +45,6 @@ echo "Run: "
 echo "echo 'pkill mpv' > ~/.termux/tasker/killmusic"
 echo "chmod +x ~/.termux/tasker/killmusic"
 
-
+echo "Wait... Enter in site: https://pudimdeveloper.github.io/Export_soupmacro_Tasker/"
 
 #ENDDING
